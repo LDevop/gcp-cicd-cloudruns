@@ -18,7 +18,7 @@ steps:
     args:
       - run
       - services
-      - deploy
+      - update
       - $_SERVICE_NAME
       - --project=$_SERVICE_PROJECT
       - --region=$_SERVICE_REGION
